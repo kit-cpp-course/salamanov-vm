@@ -4,7 +4,7 @@
 #define DWORD  		unsigned long
 #define WORD  		unsigned short
 #define BYTE  		unsigned char
-
+//класс полностью реализующий алгоритм шифрования Blowfish
 class CBlowFish
 {
 private:

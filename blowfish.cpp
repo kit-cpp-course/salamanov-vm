@@ -149,7 +149,7 @@ DWORD CBlowFish::Encode (BYTE * pInput, BYTE * pOutput, DWORD lSize)
 	DWORD 	lCount, lOutSize, lGoodBytes ;
 	BYTE	*pi, *po ;
 	int		i, j ;
-	int		SameDest = (pInput == pOutput ? 1 : 0) ;
+	bool		SameDest = (pInput == pOutput ? 1 : 0) ;
 
 	lOutSize = GetOutputLength (lSize) ;
 	for (lCount = 0 ; lCount < lOutSize ; lCount += 8)
