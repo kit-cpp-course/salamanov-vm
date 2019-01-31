@@ -1,4 +1,4 @@
-// blowfish.h2  header file containing random number tables
+// blowfish.h2  файл содержащий в себе последовательность мантисс "искреннего" числа
 
 static DWORD bf_P[NPASS + 2] = {
   0x243f6a88, 0x85a308d3, 0x13198a2e, 0x03707344,
